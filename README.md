@@ -11,10 +11,6 @@ It runs as a **zero‑build, vanilla‑JavaScript** single‑page app hosted dir
 Online** site, persisting every record to SharePoint Lists via REST. No servers, no frameworks, no
 build pipeline — upload the files and it works.
 
-- **Version:** Draft v2
-- **Built by:** Anwar Shaikh
-- **Repository:** https://github.com/shaikhanwar/HackathonContentLibrary
-
 ---
 
 ## Table of contents
