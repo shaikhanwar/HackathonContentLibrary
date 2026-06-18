@@ -1,6 +1,6 @@
 # SharePoint Deployment Steps — Hackathon Content Library
 
-Step-by-step guide to standing up the **Hackathon Content Library** on SharePoint Online. Follow it in **Dev**, then repeat verbatim in **Prod**. Screenshots are referenced from the [`screenshots/`](screenshots/) subfolder — drop the matching image files there and they render inline.
+Step-by-step guide to standing up the **Hackathon Content Library** on SharePoint Online. Follow it in **Dev**, then repeat verbatim in **Prod**. The guide is fully text-driven — screenshot placeholders are kept as HTML comments in the [`screenshots/`](screenshots/) subfolder; drop matching image files there and un-comment the embeds to render them inline.
 
 > All URLs use the placeholder tenant **`contoso`** and site **`HackathonContentLibrary`** — replace both with your own.
 >
@@ -35,20 +35,16 @@ Step-by-step guide to standing up the **Hackathon Content Library** on SharePoin
 
 1. Left nav **Sites → Active sites** → click **+ Create**.
 
-   ![Active sites list with + Create](screenshots/01-active-sites-create.png)
-
+   <!-- ![Active sites list with + Create](screenshots/01-active-sites-create.png) -->
 2. **Select the site type** → choose **Communication site** (cleaner navigation for a catalog; Team site also works).
 
-   ![Create a site: select the site type](screenshots/02-select-site-type.png)
-
+   <!-- ![Create a site: select the site type](screenshots/02-select-site-type.png) -->
 3. **Select a template** → choose **Blank** (start from a blank canvas — no sample content to clean up).
 
-   ![Select a template gallery](screenshots/03-select-template.png)
-
+   <!-- ![Select a template gallery](screenshots/03-select-template.png) -->
 4. On **Preview and use 'Blank' template** → click **Use template**.
 
-   ![Preview and use Blank template](screenshots/04-blank-template-preview.png)
-
+   <!-- ![Preview and use Blank template](screenshots/04-blank-template-preview.png) -->
 5. **Give your site a name:**
    - **Site name:** `Hackathon Content Library`
    - **Site description:** `SLED AI Hackathon Content Library`
@@ -56,23 +52,19 @@ Step-by-step guide to standing up the **Hackathon Content Library** on SharePoin
    - **Site owner:** `Anwar Shaikh`
    - Click **Next**.
 
-   ![Give your site a name](screenshots/05-site-name.png)
-
+   <!-- ![Give your site a name](screenshots/05-site-name.png) -->
 6. **Set language and other options:**
    - **Language:** English (cannot be changed later)
    - **Time zone:** (UTC-05:00) Eastern Time (US and Canada)
    - Click **Create site**.
 
-   ![Set language and other options](screenshots/06-language-timezone.png)
-
+   <!-- ![Set language and other options](screenshots/06-language-timezone.png) -->
 7. Back on **Active sites**, confirm **Hackathon Content Library** appears with URL `.../sites/HackathonContentLibrary` and primary admin **Anwar Shaikh**.
 
-   ![Active sites showing new site](screenshots/07-active-sites-confirm.png)
-
+   <!-- ![Active sites showing new site](screenshots/07-active-sites-confirm.png) -->
 8. Open the site to confirm it renders (blank Communication site home, "Published on 6/16/2026").
 
-   ![New blank site home page](screenshots/08-site-home.png)
-
+   <!-- ![New blank site home page](screenshots/08-site-home.png) -->
 **Result:** Site live at `https://contoso.sharepoint.com/sites/HackathonContentLibrary`.
 
 ---
@@ -83,21 +75,17 @@ Serving the custom HTML/JS app from a library requires custom scripts to be allo
 
 1. **SharePoint admin center** → **Sites → Active sites** → click **Hackathon Content Library** to open the site flyout (General tab).
 
-   ![Site flyout General tab](screenshots/09-site-flyout-general.png)
-
+   <!-- ![Site flyout General tab](screenshots/09-site-flyout-general.png) -->
 2. Open the **Settings** tab. Under **Custom scripts** it initially shows **Blocked** → click **Edit**.
 
-   ![Settings tab showing Custom scripts: Blocked](screenshots/10-settings-custom-scripts-blocked.png)
-
+   <!-- ![Settings tab showing Custom scripts: Blocked](screenshots/10-settings-custom-scripts-blocked.png) -->
 3. In the **Custom scripts** panel, change the setting from **Blocked** to **Allowed**.
 
-   ![Custom scripts panel - Blocked selected](screenshots/11-custom-scripts-panel.png)
-   ![Custom scripts panel - Allowed selected](screenshots/12-custom-scripts-allowed.png)
-
+   <!-- ![Custom scripts panel - Blocked selected](screenshots/11-custom-scripts-panel.png) -->
+   <!-- ![Custom scripts panel - Allowed selected](screenshots/12-custom-scripts-allowed.png) -->
 4. Click **Save** → on **"Allow users to add custom scripts?"** click **Confirm**.
 
-   ![Allow custom scripts confirmation](screenshots/13-allow-custom-scripts-confirm.png)
-
+   <!-- ![Allow custom scripts confirmation](screenshots/13-allow-custom-scripts-confirm.png) -->
 ### ⚠️ 24-hour auto-revert — important
 
 The portal explicitly warns: **"When you set the custom scripts setting to Allowed, it will automatically switch back to Blocked within 24 hours."** In practice the **portal toggle is unreliable** for hosting a static app — the page may still **download instead of render**. The **authoritative, repeatable fix is PowerShell** (`DenyAddAndCustomizePages = $false`), which persists and does not auto-revert.
@@ -187,9 +175,8 @@ Lists OK: 12 | failed: 0
 
 **Verify in the browser** — open **Site contents** and confirm all 12 `HCL*` lists are present:
 
-![Site contents showing the 12 HCL lists created by the provisioning script](screenshots/14-site-contents-12-lists.png)
-
-> 📸 **Add the screenshot:** save the "Site contents — 12 lists" image you captured to [`screenshots/14-site-contents-12-lists.png`](screenshots/) and it will render inline here. This is the production demo of the list-creation step.
+<!-- ![Site contents showing the 12 HCL lists created by the provisioning script](screenshots/14-site-contents-12-lists.png) -->
+> 📸 **Optional screenshot:** to illustrate this step, save a "Site contents — 12 lists" capture to `screenshots/14-site-contents-12-lists.png` and un-comment the embed above.
 
 > **`Created` / `Modified` are intentionally omitted** as custom columns. Those are reserved SharePoint field names; creating custom columns with them makes SharePoint assign a *different* internal name, breaking the app's mapping. The app reads SharePoint's **native** Created/Modified instead. `CreatedBy` / `ModifiedBy` are safe and **are** provisioned.
 
