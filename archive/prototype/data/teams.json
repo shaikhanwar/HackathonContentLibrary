@@ -1,0 +1,11 @@
+{
+  "teams": [
+    { "id": "T-MET-3", "name": "Team 3 — Permit Pathfinders", "eventId": "EV-2026-03-MET", "agencyId": "AG-MET-DOB", "participants": ["R. Alvarez (DOB)", "J. Chen (DOB)", "M. Okafor (DOB IT)"], "csaIds": ["P-PRIYA"], "managerId": "P-ALICIA", "supportIds": ["P-DANIEL"], "useCaseIds": ["UC-2026-MET-007", "UC-2026-MET-013"] },
+    { "id": "T-MET-1", "name": "Team 1 — Service Bridge", "eventId": "EV-2026-03-MET", "agencyId": "AG-MET-311", "participants": ["L. Romano (311)", "P. Singh (311)"], "csaIds": ["P-MARCUS"], "managerId": "P-ALICIA", "supportIds": ["P-DIEGO"], "useCaseIds": ["UC-2026-MET-002", "UC-2026-MET-015"] },
+    { "id": "T-MET-2", "name": "Team 2 — Streets & Signals", "eventId": "EV-2026-03-MET", "agencyId": "AG-MET-DOT", "participants": ["T. Brooks (DOT)", "A. Nwosu (DOT)"], "csaIds": ["P-LENA"], "managerId": "P-ALICIA", "supportIds": [], "useCaseIds": ["UC-2026-MET-009"] },
+    { "id": "T-MET-4", "name": "Team 4 — Transit Watch", "eventId": "EV-2026-03-MET", "agencyId": "AG-MET-MTA", "participants": ["D. Park (MTA)", "S. Haddad (MTA)"], "csaIds": ["P-LENA"], "managerId": "P-ALICIA", "supportIds": ["P-NADIA"], "useCaseIds": ["UC-2026-MET-011"] },
+    { "id": "T-ALB-1", "name": "Team A — Benefits Forward", "eventId": "EV-2026-01-ALB", "agencyId": "AG-STA-DOH", "participants": ["K. Reyes (DOH)", "B. Ito (DOH)"], "csaIds": ["P-PRIYA"], "managerId": "P-ALICIA", "supportIds": ["P-DANIEL"], "useCaseIds": ["UC-2026-ALB-005", "UC-2026-ALB-002"] },
+    { "id": "T-ALB-2", "name": "Team B — Claims Engine", "eventId": "EV-2026-01-ALB", "agencyId": "AG-STA-DOL", "participants": ["F. Mensah (DOL)", "C. Russo (DOL)"], "csaIds": ["P-MARCUS"], "managerId": "P-ALICIA", "supportIds": ["P-NADIA"], "useCaseIds": ["UC-2026-ALB-008"] },
+    { "id": "T-ALB-3", "name": "Team C — DMV Flow", "eventId": "EV-2026-01-ALB", "agencyId": "AG-STA-DMV", "participants": ["H. Vargas (DMV)", "O. Bauer (DMV)"], "csaIds": ["P-LENA"], "managerId": "P-ALICIA", "supportIds": [], "useCaseIds": ["UC-2026-ALB-003", "UC-2026-ALB-010"] }
+  ]
+}

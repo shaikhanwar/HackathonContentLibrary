@@ -1,0 +1,25 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# VS Code
+.vscode/
+*.code-search
+
+# Node (only if tooling is ever added)
+node_modules/
+npm-debug.log*
+
+# Logs / temp
+*.log
+*.tmp
+
+# Local environment / secrets (never commit)
+.env
+.env.*
+*.pem
+*.pfx
+secrets.*

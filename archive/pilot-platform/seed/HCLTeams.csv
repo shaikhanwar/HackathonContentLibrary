@@ -1,0 +1,8 @@
+"Title","TeamId","EventId","AgencyId","Participants","AssignedCSAs","ManagerId"
+"Team 3 — Permit Pathfinders","T-MET-3","EV-2026-03-MET","AG-MET-DOB","R. Alvarez (DOB); J. Chen (DOB); M. Okafor (DOB IT)","P-PRIYA","P-ALICIA"
+"Team 1 — Service Bridge","T-MET-1","EV-2026-03-MET","AG-MET-311","L. Romano (311); P. Singh (311)","P-MARCUS","P-ALICIA"
+"Team 2 — Streets & Signals","T-MET-2","EV-2026-03-MET","AG-MET-DOT","T. Brooks (DOT); A. Nwosu (DOT)","P-LENA","P-ALICIA"
+"Team 4 — Transit Watch","T-MET-4","EV-2026-03-MET","AG-MET-MTA","D. Park (MTA); S. Haddad (MTA)","P-LENA","P-ALICIA"
+"Team A — Benefits Forward","T-ALB-1","EV-2026-01-ALB","AG-STA-DOH","K. Reyes (DOH); B. Ito (DOH)","P-PRIYA","P-ALICIA"
+"Team B — Claims Engine","T-ALB-2","EV-2026-01-ALB","AG-STA-DOL","F. Mensah (DOL); C. Russo (DOL)","P-MARCUS","P-ALICIA"
+"Team C — DMV Flow","T-ALB-3","EV-2026-01-ALB","AG-STA-DMV","H. Vargas (DMV); O. Bauer (DMV)","P-LENA","P-ALICIA"

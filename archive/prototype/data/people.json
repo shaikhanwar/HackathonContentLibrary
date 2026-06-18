@@ -1,0 +1,12 @@
+{
+  "people": [
+    { "id": "P-ALICIA", "name": "Alicia M.", "org": "CSA", "roleTitle": "CSA Manager, SLG East", "hackathonRoles": ["Host", "CSA Manager"], "solutionAreas": ["Apps", "Data-AI"], "championCapability": [], "active": true },
+    { "id": "P-DANIEL", "name": "Daniel R.", "org": "STU", "roleTitle": "STU Lead, AI Solutions", "hackathonRoles": ["Lead Speaker", "Sponsor"], "solutionAreas": ["Data-AI"], "championCapability": ["Sponsor"], "active": true },
+    { "id": "P-PRIYA", "name": "Priya N.", "org": "CSA", "roleTitle": "Cloud Solution Architect", "hackathonRoles": ["CSA", "Coach"], "solutionAreas": ["Data-AI"], "championCapability": ["Data-AI champion"], "active": true },
+    { "id": "P-MARCUS", "name": "Marcus L.", "org": "CSA", "roleTitle": "Cloud Solution Architect", "hackathonRoles": ["CSA", "Coach"], "solutionAreas": ["Apps"], "championCapability": ["Apps champion"], "active": true },
+    { "id": "P-SAM", "name": "Sam T.", "org": "CSA", "roleTitle": "Program Operations Lead", "hackathonRoles": ["Organizer"], "solutionAreas": ["Apps"], "championCapability": [], "active": true },
+    { "id": "P-LENA", "name": "Lena K.", "org": "CSA", "roleTitle": "Cloud Solution Architect", "hackathonRoles": ["CSA", "Coach"], "solutionAreas": ["Data-AI", "Infra"], "championCapability": ["Data-AI champion"], "active": true },
+    { "id": "P-DIEGO", "name": "Diego F.", "org": "CSU", "roleTitle": "Customer Success Specialist", "hackathonRoles": ["Coach"], "solutionAreas": ["Apps"], "championCapability": ["Apps champion"], "active": true },
+    { "id": "P-NADIA", "name": "Nadia H.", "org": "ATU", "roleTitle": "Account Technology Strategist", "hackathonRoles": ["Sponsor"], "solutionAreas": ["Apps", "Data-AI"], "championCapability": ["Sponsor"], "active": true }
+  ]
+}

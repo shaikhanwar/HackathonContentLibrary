@@ -1,0 +1,4 @@
+"Title","PatternId","Summary","Repeatability","SolutionPlay","Components"
+"RAG over line-of-business data","PAT-RAG-LOB","Retrieval-augmented generation grounded on an agency line-of-business system plus a status/lookup API, surfaced through chat or an agent-assist panel.","High","Azure AI / Knowledge mining","Azure OpenAI;Azure AI Search;Azure Functions"
+"Document intelligence / extraction","PAT-DOCINTEL","Extract structured fields from forms, PDFs, and scans to reduce manual data entry and speed case processing.","High","Azure AI / Document processing","Azure AI Document Intelligence;Azure Functions;Power Automate"
+"Copilot-assisted form & notice automation","PAT-FORMAUTO","Generate and pre-fill citizen-facing notices and forms with human-in-the-loop review, including multilingual output.","Medium","Power Platform / Low-code","Power Apps;Power Automate;Azure OpenAI"

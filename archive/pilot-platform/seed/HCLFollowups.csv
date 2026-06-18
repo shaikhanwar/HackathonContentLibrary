@@ -1,0 +1,7 @@
+"Title","FollowupId","UseCaseId","NextStep","OwnerId","DueDate","MotionType","FollowupStatus","OutcomeNotes"
+"FU-001","FU-001","UC-2026-MET-007","Scope a 2-week pilot with DOB IT to connect the permit status API.","P-PRIYA","2026-04-15","Pilot","In progress","DOB IT confirmed API access path; pilot scoping underway."
+"FU-002","FU-002","UC-2026-MET-004","Hand to account team to align with HRA modernization roadmap.","P-NADIA","2026-04-30","Hand to account team","In progress","Sponsor engaged; mapping to existing engagement."
+"FU-003","FU-003","UC-2026-MET-002","Validate multilingual quality with 311 supervisors; plan incubation sprint.","P-MARCUS","2026-05-10","Incubation","Not started",""
+"FU-004","FU-004","UC-2026-ALB-005","Confirm scheduling data feed and run a 3-week pilot with DOH ops.","P-PRIYA","2026-02-28","Pilot","In progress","Pilot kickoff scheduled."
+"FU-005","FU-005","UC-2026-ALB-008","Productionize document-extraction pipeline; reuse DOCINTEL accelerator.","P-MARCUS","2026-03-15","Engagement","In progress","Strong sponsor support; account team engaged."
+"FU-006","FU-006","UC-2026-MET-011","Identify a follow-up owner and validate incident data feed access.",,,"Incubation","Stalled","No owner assigned — surfaced as an alert on the pipeline."

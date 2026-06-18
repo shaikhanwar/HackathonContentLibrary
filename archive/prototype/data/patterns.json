@@ -1,0 +1,35 @@
+{
+  "patterns": [
+    {
+      "id": "PAT-RAG-LOB",
+      "name": "RAG over line-of-business data",
+      "summary": "Retrieval-augmented generation grounded on an agency line-of-business system plus a status/lookup API, surfaced through chat or an agent-assist panel.",
+      "repeatability": "High",
+      "solutionPlay": "Azure AI / Knowledge mining",
+      "components": ["Azure OpenAI", "Azure AI Search", "Azure Functions"],
+      "acceleratorIds": ["ACC-RAG-STARTER"]
+    },
+    {
+      "id": "PAT-DOCINTEL",
+      "name": "Document intelligence / extraction",
+      "summary": "Extract structured fields from forms, PDFs, and scans to reduce manual data entry and speed case processing.",
+      "repeatability": "High",
+      "solutionPlay": "Azure AI / Document processing",
+      "components": ["Azure AI Document Intelligence", "Azure Functions", "Power Automate"],
+      "acceleratorIds": ["ACC-DOCINTEL-TEMPLATE"]
+    },
+    {
+      "id": "PAT-FORMAUTO",
+      "name": "Copilot-assisted form & notice automation",
+      "summary": "Generate and pre-fill citizen-facing notices and forms with human-in-the-loop review, including multilingual output.",
+      "repeatability": "Medium",
+      "solutionPlay": "Power Platform / Low-code",
+      "components": ["Power Apps", "Power Automate", "Azure OpenAI"],
+      "acceleratorIds": []
+    }
+  ],
+  "accelerators": [
+    { "id": "ACC-RAG-STARTER", "name": "SLG RAG Starter Kit", "type": "Repo template", "url": "#", "patternId": "PAT-RAG-LOB" },
+    { "id": "ACC-DOCINTEL-TEMPLATE", "name": "Document Extraction Power Automate Template", "type": "Flow template", "url": "#", "patternId": "PAT-DOCINTEL" }
+  ]
+}

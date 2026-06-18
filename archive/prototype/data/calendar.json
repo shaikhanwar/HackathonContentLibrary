@@ -1,0 +1,46 @@
+{
+  "calendar": [
+    {
+      "id": "CAL-2026-09-SF",
+      "title": "Bay Area SLG AI Hackathon",
+      "startDate": "2026-09-22",
+      "endDate": "2026-09-23",
+      "status": "Confirmed",
+      "format": "Hybrid",
+      "location": "Microsoft Technology Center, San Francisco + Teams",
+      "themes": ["Permitting", "Benefits eligibility", "311 / Citizen services"],
+      "focusAgencies": ["City/County services", "Transit"],
+      "organizerIds": ["P-SAM", "P-PRIYA"],
+      "registrationUrl": "#",
+      "notes": "Targeting 6 teams. Reuse RAG and document-extraction patterns as starter kits."
+    },
+    {
+      "id": "CAL-2026-11-ATX",
+      "title": "Texas State Agencies AI Hackathon",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-11",
+      "status": "Open for registration",
+      "format": "In-person",
+      "location": "Microsoft Technology Center, Austin",
+      "themes": ["Document automation", "Public safety", "Workforce services"],
+      "focusAgencies": ["State health & human services", "DMV-equivalent"],
+      "organizerIds": ["P-SAM"],
+      "registrationUrl": "#",
+      "notes": "Awaiting final agency confirmations for two tracks."
+    },
+    {
+      "id": "CAL-2027-02-VIRT",
+      "title": "Midwest Counties Virtual AI Hackathon",
+      "startDate": "2027-02-04",
+      "endDate": "2027-02-05",
+      "status": "Proposed",
+      "format": "Virtual",
+      "location": "Microsoft Teams",
+      "themes": ["Citizen services", "Case management"],
+      "focusAgencies": ["County human services", "County clerks"],
+      "organizerIds": ["P-MARCUS"],
+      "registrationUrl": "#",
+      "notes": "Virtual format to broaden county-level reach; logistics owner to be confirmed."
+    }
+  ]
+}

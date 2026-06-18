@@ -1,0 +1,10 @@
+{
+  "followups": [
+    { "id": "FU-001", "useCaseId": "UC-2026-MET-007", "nextStep": "Scope a 2-week pilot with DOB IT to connect the permit status API.", "ownerId": "P-PRIYA", "dueDate": "2026-04-15", "motionType": "Pilot", "status": "In progress", "championIds": ["P-MARCUS", "P-PRIYA"], "outcomeNotes": "DOB IT confirmed API access path; pilot scoping underway." },
+    { "id": "FU-002", "useCaseId": "UC-2026-MET-004", "nextStep": "Hand to account team to align with HRA modernization roadmap.", "ownerId": "P-NADIA", "dueDate": "2026-04-30", "motionType": "Hand to account team", "status": "In progress", "championIds": ["P-DANIEL"], "outcomeNotes": "Sponsor engaged; mapping to existing engagement." },
+    { "id": "FU-003", "useCaseId": "UC-2026-MET-002", "nextStep": "Validate multilingual quality with 311 supervisors; plan incubation sprint.", "ownerId": "P-MARCUS", "dueDate": "2026-05-10", "motionType": "Incubation", "status": "Not started", "championIds": ["P-DIEGO"], "outcomeNotes": "" },
+    { "id": "FU-004", "useCaseId": "UC-2026-ALB-005", "nextStep": "Confirm scheduling data feed and run a 3-week pilot with DOH ops.", "ownerId": "P-PRIYA", "dueDate": "2026-02-28", "motionType": "Pilot", "status": "In progress", "championIds": ["P-LENA"], "outcomeNotes": "Pilot kickoff scheduled." },
+    { "id": "FU-005", "useCaseId": "UC-2026-ALB-008", "nextStep": "Productionize document-extraction pipeline; reuse DOCINTEL accelerator.", "ownerId": "P-MARCUS", "dueDate": "2026-03-15", "motionType": "Engagement", "status": "In progress", "championIds": ["P-NADIA", "P-MARCUS"], "outcomeNotes": "Strong sponsor support; account team engaged." },
+    { "id": "FU-006", "useCaseId": "UC-2026-MET-011", "nextStep": "Identify a follow-up owner and validate incident data feed access.", "ownerId": null, "dueDate": null, "motionType": "Incubation", "status": "Stalled", "championIds": [], "outcomeNotes": "No owner assigned — surfaced as an alert on the pipeline." }
+  ]
+}
