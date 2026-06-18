@@ -91,7 +91,6 @@ walkthrough (data flow, scoring, governance) is in **[`docs/ARCHITECTURE.md`](do
 hackathon-content-library/
 ├─ app/                          # 👉 What you deploy to SharePoint (SiteAssets/hcl)
 │  ├─ index.aspx                 #    App page (renders inline on SharePoint)
-│  ├─ index.html                 #    Same page for local browsing only
 │  ├─ css/styles.css
 │  └─ js/                        #    ES modules — upload the whole folder together
 ├─ scripts/
